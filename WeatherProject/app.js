@@ -29,7 +29,6 @@ app.post("/", function(req,res){
       res.write("<h1>The temperature is " + temp + " degrees Celcius.</h1>");
       res.write("<img src=" + imageURL +">")
       res.send();
-      //console.log(temp);
       //console.log(weatherDescription);
     })
   });
